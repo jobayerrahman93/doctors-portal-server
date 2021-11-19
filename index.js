@@ -215,7 +215,7 @@ console.log(result);
         const cursor = doctorsCollection.find({});
         const result = await cursor.toArray();
         res.json(result);
-   
+      
     })
 
     //  admin check
